@@ -1,0 +1,139 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  padding: 12px;
+}
+
+.epl-table {
+  padding: 0 24px;
+  margin: 0 24px;
+}
+
+h2 {
+  margin-left: 30px;
+  background-color: lightgray;
+}
+
+nav {
+  height: 100px;
+}
+
+.container {
+  margin: 0;
+}
+
+.menu-item {
+  width: 30px;
+}
+
+/** header **/
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #db4437;
+}
+
+.navbar-brand h1 {
+  color: #4285f4;
+  text-align: left;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+a:hover {
+  color: #db4437;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 10px;
+  margin: 10px;
+}
+
+/** end header **/
+
+.main-container {
+  margin: 0 50px;
+}
+
+#top-banner {
+  padding: 0 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/** Table **/
+
+thead {
+  background-color: #f4b400;
+  color: white;
+}
+
+/* 
+
+#team-badge {
+  width: 12px;
+  background-color: red;
+} 
+*/
+
+/** end of Table **/
+
+#col-center {
+  text-align: center;
+}
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
+/* team badges */
+
+#team-badge {
+  width: 25px;
+}
+/* end team badges */
+
+/* slider */
+
+/* .active {
+  
+} */
+
+/* end slider */
+
+/* footer */
+
+footer {
+  background-color: #f8f8f8;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: #e7e7e7;
+  padding: 12px;
+}
+
+footer p {
+  font-size: 24px;
+  color: #f4b400;
+}
+
+li a {
+  color: #777;
+}
+
+li {
+  list-style: none;
+}
+
+/* end footer */
