@@ -1,0 +1,224 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  padding: 5px 48px 0 48px;
+}
+
+.epl-table {
+  padding: 0 48px;
+  margin: 0 24px;
+}
+
+h2 {
+  padding: 12px;
+  background-color: lightgray;
+  font-size: 30px;
+}
+
+nav {
+  height: auto;
+  min-height: fit-content;
+}
+
+.navbar {
+  min-height: 100px;
+}
+
+.container {
+  width: auto;
+}
+
+.contact-us {
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  border: solid lightgrey 1px;
+  width: auto;
+  padding: 30px 100px;
+  margin: 10px 50px;
+  font-size: 16px;
+}
+
+.about-us {
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  border: solid lightgrey 1px;
+  width: auto;
+  padding: 30px 100px;
+  margin: 10px 50px;
+  font-size: 16px;
+}
+
+.menu-item {
+  width: 30px;
+}
+
+#tagLine {
+  font-size: 14px;
+  padding: 8px;
+}
+
+/** header **/
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #db4437;
+}
+
+.navbar-brand h1 {
+  color: #4285f4;
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+a:hover {
+  color: #db4437;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 10px;
+  margin: 10px;
+}
+
+a.active {
+  font-size: 20px;
+}
+
+/** end header **/
+
+/* .main-container {
+  margin: 0 50px;
+} */
+
+#top-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+/** Table **/
+
+thead {
+  background-color: #f4b400;
+  color: white;
+}
+
+/** end of Table **/
+.col-center {
+  text-align: center;
+  /* width: 120px; */
+}
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
+/* team badges */
+
+.team-badge {
+  width: 25px;
+}
+/* end team badges */
+
+/* slider */
+
+/* .active {
+
+} */
+
+/* end slider */
+
+/* footer */
+
+footer {
+  background-color: #f8f8f8;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: #e7e7e7;
+  padding: 12px;
+  margin: auto;
+  height: 160px;
+}
+
+footer p {
+  font-size: 24px;
+  color: #f4b400;
+  margin: 0;
+}
+
+.footer-menu,
+ul {
+  margin: 0;
+}
+
+li a {
+  color: #777;
+}
+
+li {
+  list-style: none;
+}
+
+#copyright {
+  color: grey;
+  font-size: 13px;
+  float: right;
+}
+
+.socialMediaIcons {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+/* end footer */
+
+/* @media (min-width: 1150px) .container {
+  width: auto;
+}
+*/
+@media (min-width: 801px) and (max-width: 1149px) {
+  .about-us {
+    margin: auto;
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  body .epl-table {
+    padding: 0;
+  }
+  body .epl-table {
+    font-size: 10px;
+  }
+  .epl-table {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-brand h1 {
+    font-size: 2em;
+    line-height: 80%;
+  }
+  #tagLine {
+    font-size: 10px;
+    padding: 0;
+  }
+  .about-us {
+    margin: auto;
+    padding: 10px 30px;
+  }
+}
